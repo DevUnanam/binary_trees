@@ -2,6 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * binary_tree_postorder - goes through binary tree using post-order traversal
+ * @tree: a pointer to the root node of the tree to traverse.
+ * @func: a pointer to the function to call for each node.
+ * Return: void.
  */
 
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))

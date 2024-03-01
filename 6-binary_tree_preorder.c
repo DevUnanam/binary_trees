@@ -2,7 +2,11 @@
 #include <stdlib.h>
 
 /**
-  */
+ * binary_tree_preorder - goes through a biary tree using pre-order traversal.
+ * @tree: a pointer to the root node of the tree to traverse.
+ * @func: a pointer to the function to call for each node.
+ * Return: void
+ */
 
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {

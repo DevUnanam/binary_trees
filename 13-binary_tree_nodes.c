@@ -3,6 +3,9 @@
 
 
 /**
+ * binary_tree_nodes_recurse - recursively counts the nodes in the binary tree.
+ * @tree: a pointer to the current node.
+ * @size: a pointer to the node counter.
 */
 
 void binary_tree_nodes_recurse(const binary_tree_t *tree, size_t *size)
@@ -17,6 +20,10 @@ void binary_tree_nodes_recurse(const binary_tree_t *tree, size_t *size)
 }
 
 /**
+ * binary_tree_nodes - counts the number of nodes in the binary tree.
+ * @tree: a pointer to the root node of the binary tree.
+ *
+ * Return: number of nodesin the binary tree otherwise, 0 is NULL.
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {

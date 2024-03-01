@@ -1,7 +1,12 @@
 #include "binary_trees.h"
 
-
 /**
+ * is_perfect - recursively checks if a tree is perfect.
+ * @tree: a pointer to the current node.
+ * @level: the current level in the tree.
+ * @depth: the maximum depth of the tree.
+ *
+ * Return: 1 if the tree is perfect, 0 otherwise.
  */
 
 int is_perfect(const binary_tree_t *tree, int level, int depth)
@@ -16,6 +21,10 @@ int is_perfect(const binary_tree_t *tree, int level, int depth)
 
 
 /**
+ * binary_tree_is_perfect - checks if a binary tree is perfect.
+ * @tree: a pointer to the root node of the binary tree.
+ *
+ * Return: 1 if the tree is perfect, 0 otherwise.
  */
 
 int binary_tree_is_perfect(const binary_tree_t *tree)

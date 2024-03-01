@@ -8,8 +8,14 @@
 #include <limits.h>
 
 /**
- * 
+ * struct binary_tree_s - Binary tree node
+ *
+ * @n: Integer stored in the node.
+ * @parent: Pointer to the parent node.
+ * @left: Pointer to the left child node.
+ * @right: Pointer to the right child node.
  */
+
 struct binary_tree_s
 {
 	int n;
@@ -25,7 +31,10 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 /**
- 
+ * struct node - a node in a queue.
+ *
+ * @val: Pointer to the binary tree node.
+ * @next: Pointer to the next node in the queue.
  */
 
 typedef struct node
@@ -34,6 +43,13 @@ typedef struct node
 	struct node *next;
 } queue;
 
+/**
+ * struct link_s - a linked list node.
+ *
+ * @n: Sixe of the lisnked list.
+ * @node: Pointer to a binary teree node.
+ * @next: Pointer to the next node in the linked list.
+ */
 
 typedef struct link_s
 {
